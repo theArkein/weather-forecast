@@ -1,5 +1,3 @@
-# Weather App
-A Node JS App To Fetch Weather
-<a href="https://leo-nodejs-weather-app.herokuapp.com/">Visit Site</a>
-
-<p> A simple weather fetching application in Nodejs. The weather data is fetched using api provided by <a href="https://weatherstack.com/">Weather Stack</a>
+## <sub>Weather App</sub>
+A node.js app to fetch weather of a searched location. <a href="https://thearkein-nodejs-weather-fetch.herokuapp.com/">Visit Deployment</a><br>
+The API source is <a href="https://weatherstack.com/">Weather Stack.</a>
