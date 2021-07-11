@@ -5,7 +5,7 @@ let path = require('path');
 let route = require('./routes.js');
 
 let app = new express();
-
+const PORT = process.env.PORT || 3000
 // Declaring Global App Variables
 app.variables = {
     title : "Weather App",
@@ -23,6 +23,6 @@ app.use(express.static(app.variables.publicDirectoryPath));
 route.start(app);
 
 // App port Setup
-app.listen(process.env.PORT || 3000,()=>{
-    console.log("Listening to port 3000");
+app.listen(PORT,()=>{
+    console.log("Listening to port ", PORT);
 })
