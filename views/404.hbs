@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{app.title}}</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+<body>
+    <div class="app-wrapper">
+        
+        <h1 class="app-header">Weather App</h1>
+        
+        <div class="nav-menu">
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="about">About</a></li>
+            </ul>
+        </div>
+
+        <div class="content-wrapper">
+            <div class="error-content">
+                <h1>404 Error</h1>
+                <div>{{app.requestPage}} page not found.</div>
+            </div>
+        </div>
+
+        <div class="footernote">
+            API source: weatherStack
+        </div>
+    </div>
+</body>
+</html>

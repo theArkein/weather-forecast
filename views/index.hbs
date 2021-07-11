@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{app.title}}</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+<body>
+    <div class="app-wrapper">
+        
+        <h1 class="app-header">Weather App</h1>
+        
+        <div class="nav-menu">
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="about">About</a></li>
+            </ul>
+        </div>
+
+        <div class="content-wrapper">
+            <div class="weather-content">
+                <div class="input-form">
+                    <form class='form'>
+                        <label for="location">Type your location to know weather</label>
+                        <div>
+                            <input type="text" name="location" id="location" placeholder="give data, take data">
+                            <input type="submit" value="search">
+                        </div>
+                    </form>
+                </div>
+
+                <div class="fetched-data">
+                    <div class="location">
+                        
+                    </div>
+                    <div class="weather-data">
+                        <div><span>Weather</span><span class='weather'></span></div>
+                        <div><span>Temperature</span><span class='temperature'></span></div>
+                        <div><span>Pressure</span><span class='pressure'></span></div>
+                        <div><span>Wind</span><span class='wind'></span></div>
+                        <div><span>Humidity</span><span class='humidity'></span></div>
+                    </div>
+                </div>
+                <div class="fetch-error">
+                    No Data fetched
+                </div>
+            </div>
+        </div>
+
+        <div class="footernote">
+            API source: weatherStack
+        </div>
+
+    </div>
+</body>
+    <script src="js/script.js"></script>
+</html>
